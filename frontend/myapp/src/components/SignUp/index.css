@@ -1,0 +1,47 @@
+.signup-title {
+  font-size: 48px;
+  color: #21415e;
+  font-weight: bold;
+  font-family: "Roboto";
+}
+
+.signup-button {
+  font-family: "Roboto";
+  font-size: 12px;
+  color: #ffffff;
+  padding: 8px 16px;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  background-color: #21415e;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.success-message {
+  align-self: center;
+  font-size: 12px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 16px;
+  color: #19a831;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.login-button {
+  font-weight: "Roboto";
+  font-size: 12px;
+  color: #ffffff;
+  padding: 8px 16px;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  background-color: #19a831;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}

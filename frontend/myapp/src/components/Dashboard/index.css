@@ -1,0 +1,103 @@
+.dashboard-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f6f8;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-header {
+  background-color: #ad9a99;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.web-image {
+  height: 55px;
+  width: 55px;
+  border-radius: 20px;
+}
+
+.dashboard-title {
+  margin: 0;
+  font-weight: bold;
+  color: #332b2b;
+  font-size: 22px;
+  font-family: "Roboto";
+}
+
+.logout-btn {
+  background-color: #382828;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background-color: #e34444;
+}
+
+.dashboard-content {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard-content h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.dashboard-content p {
+  color: #555;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.failure-image {
+  width: 50%;
+  max-width: 300px;
+}
+
+.failure-text {
+  font-family: "Roboto";
+  font-size: 22px;
+  color: #121f1b;
+  font-weight: 600;
+  margin-top: 25px;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.text {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #09120f;
+  font-family: "Roboto";
+  font-size: 22px;
+}
+
+@media screen and (max-width: 768px) {
+  .text {
+    font-size: 14px;
+  }
+}
