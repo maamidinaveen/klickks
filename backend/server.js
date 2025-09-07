@@ -127,10 +127,8 @@ const authenticateToken = (request, response, next) => {
 
   jwt.verify(token, "my_key", (error, payload) => {
     if (error) {
-      console.log("jwt error ", error.message);
       return response.status(401).json({ message: "Invalid Token" });
     }
-    console.log("decoded payload", payload);
     request.email = payload.email;
     next();
   });
